@@ -13,7 +13,6 @@ Página de vendas da Keylla (Família Brigadier).
 4. Em alguns minutos a página fica disponível em `https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/`.
 
 ## Depois de publicar
-No `index.html`, troque `[URL_DA_PAGINA]` (nas tags `og:url` e `og:image`) pelo endereço da página publicada,
-para o link aparecer com foto no WhatsApp e no Instagram.
+No `index.html`, troque `[URL_DA_PAGINA]` (nas tags `og:url` e `og:image`) pelo endereço da página publicada.
 
 Link de compra (Kiwify): https://pay.kiwify.com.br/Agp5YSB
