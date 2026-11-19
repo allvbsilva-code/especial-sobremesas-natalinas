@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- ===== SEO / COMPARTILHAMENTO (WhatsApp, Instagram) ===== -->
+<title>Especial Sobremesas Natalinas | Keylla • Família Brigadier</title>
+<meta name="description" content="Videoaulas passo a passo: 7 bases cremosas, 6 sobremesas natalinas, 2 bônus e suporte individual no WhatsApp. 6x de R$ 8,99 ou R$ 47,90 à vista.">
+<meta name="theme-color" content="#7A0E16">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Especial Sobremesas Natalinas 🎄 | Família Brigadier">
+<meta property="og:description" content="Aprenda as melhores sobremesas de Natal que vendem muito, em videoaulas passo a passo com a Keylla.">
+<!-- TROCAR: o WhatsApp só mostra a prévia com uma imagem hospedada em URL pública -->
+<meta property="og:image" content="[URL_DA_PAGINA]/img/guirlanda.jpg">
+<meta property="og:url" content="[URL_DA_PAGINA]">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --red:#B3202A; --red-dk:#7A0E16; --red-deep:#4E070C;
+  --green:#1F4D3A; --green-dk:#133326;
+  --gold:#C9A227; --gold-lt:#F1D77A;
+  --cream:#FFF8EE; --cream-2:#F8EBDA;
+  --choc:#4A2C21; --ink:#2B1A14;
+  /* VERMELHO METÁLICO PREMIUM */
+  --red-metal:linear-gradient(135deg,#5E0910 0%,#9E1520 18%,#D8404B 34%,#A3161F 48%,#7A0E16 62%,#C92F3A 80%,#5E0910 100%);
+  --gold-metal:linear-gradient(135deg,#8C6A12 0%,#C9A227 22%,#F6E09A 40%,#C9A227 58%,#9C7A18 78%,#E8C962 100%);
+  --radius:20px;
+  --shadow:0 18px 40px -18px rgba(74,44,33,.45);
+  --shadow-red:0 14px 30px -10px rgba(122,14,22,.55);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Poppins',system-ui,sans-serif;color:var(--ink);background:var(--cream);line-height:1.6;font-size:16px;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%;display:block}
+h1,h2,h3{font-family:'Playfair Display',Georgia,serif;line-height:1.15;color:var(--choc)}
+h2{font-size:clamp(1.75rem,6vw,2.6rem);text-align:center;margin-bottom:.6rem}
+h3{font-size:1.25rem}
+strong{font-weight:700}
+.wrap{width:100%;max-width:1080px;margin:0 auto;padding:0 20px}
+section{padding:72px 0;position:relative}
+.eyebrow{display:block;text-align:center;font-size:.78rem;letter-spacing:.22em;text-transform:uppercase;font-weight:600;color:var(--red);margin-bottom:.6rem}
+.lead{text-align:center;max-width:640px;margin:0 auto 2.2rem;color:#5a4038;font-size:1.05rem}
+.metal-text{background:var(--red-metal);background-size:200% 200%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:sheen 6s ease-in-out infinite}
+.gold-text{background:var(--gold-metal);background-size:200% 200%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:sheen 6s ease-in-out infinite}
+@keyframes sheen{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+
+/* Divisor de fita dourada */
+.ribbon-divider{display:flex;align-items:center;justify-content:center;gap:12px;margin:0 auto 1.2rem}
+.ribbon-divider::before,.ribbon-divider::after{content:"";height:2px;width:60px;background:var(--gold-metal)}
+
+/* Fundos alternados */
+.bg-cream{background:var(--cream)}
+.bg-cream2{background:var(--cream-2)}
+.bg-red{background:var(--red-metal);background-size:180% 180%;color:#fff}
+.bg-red h2,.bg-red h3{color:#fff}
+.bg-green{background:radial-gradient(120% 90% at 50% 0%,#285f48 0%,var(--green) 45%,var(--green-dk) 100%);color:#fff}
+.bg-green h2,.bg-green h3{color:#fff}
+.bg-choc{background:radial-gradient(120% 90% at 50% 0%,#5c382b 0%,var(--choc) 50%,#2e1a13 100%);color:#fff}
+.bg-choc h2,.bg-choc h3{color:#fff}
+.bg-red .eyebrow,.bg-green .eyebrow,.bg-choc .eyebrow{color:var(--gold-lt)}
+.bg-red .lead,.bg-green .lead,.bg-choc .lead{color:rgba(255,255,255,.88)}
+/* flocos sutis */
+.snow::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.18;
+  background-image:radial-gradient(2px 2px at 20px 30px,#fff 50%,transparent 51%),radial-gradient(1.5px 1.5px at 90px 120px,#fff 50%,transparent 51%),radial-gradient(2.5px 2.5px at 160px 60px,#fff 50%,transparent 51%),radial-gradient(1.5px 1.5px at 230px 170px,#fff 50%,transparent 51%);
+  background-size:260px 220px}
+
+/* ===== BARRA FIXA NO TOPO ===== */
+.topbar{position:sticky;top:0;z-index:60;background:var(--red-metal);background-size:200% 200%;animation:sheen 8s ease-in-out infinite;color:#fff;text-align:center;font-size:.85rem;font-weight:600;padding:9px 14px;border-bottom:1px solid rgba(241,215,122,.6);box-shadow:0 4px 14px rgba(78,7,12,.35)}
+.topbar s{opacity:.8;font-weight:400}
+.topbar b{color:var(--gold-lt)}
+
+/* ===== BOTÕES ===== */
+.btn{position:relative;overflow:hidden;display:inline-flex;align-items:center;justify-content:center;gap:10px;width:100%;max-width:440px;min-height:60px;padding:16px 26px;border-radius:999px;
+  background:var(--red-metal);background-size:200% 200%;color:#fff;text-decoration:none;font-weight:700;font-size:1.02rem;letter-spacing:.03em;text-transform:uppercase;text-align:center;
+  border:1.5px solid rgba(241,215,122,.75);box-shadow:var(--shadow-red),inset 0 1px 0 rgba(255,255,255,.35),inset 0 -2px 0 rgba(0,0,0,.25);
+  animation:pulse 2.4s ease-in-out infinite;transition:transform .2s}
+.btn::after{content:"";position:absolute;top:0;left:-80%;width:50%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.45),transparent);transform:skewX(-20deg);animation:shine 3.2s ease-in-out infinite}
+.btn:hover{transform:translateY(-2px)}
+.btn:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.btn.green{background:linear-gradient(135deg,#123024,#1F4D3A 35%,#3a7a5d 50%,#1F4D3A 65%,#123024);box-shadow:0 14px 30px -10px rgba(19,51,38,.6),inset 0 1px 0 rgba(255,255,255,.3)}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.03)}}
+@keyframes shine{0%{left:-80%}60%,100%{left:130%}}
+.cta-box{text-align:center;margin-top:2.4rem}
+.cta-note{margin-top:.8rem;font-size:.82rem;opacity:.85;display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+
+/* ===== HERO ===== */
+.hero{padding:44px 0 64px;background:
+  radial-gradient(80% 60% at 85% 0%,rgba(179,32,42,.14),transparent 60%),
+  radial-gradient(70% 50% at 0% 100%,rgba(31,77,58,.12),transparent 60%),var(--cream);overflow:hidden}
+.hero .grid{display:grid;gap:34px;align-items:center}
+.badge{display:inline-flex;align-items:center;gap:8px;padding:7px 16px;border-radius:999px;background:var(--green);color:#fff;font-size:.78rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--gold)}
+.hero h1{font-size:clamp(2rem,8.4vw,3.5rem);margin:16px 0 14px}
+.hero .sub{font-size:1.05rem;color:#5a4038;margin-bottom:22px}
+.hero .sub strong{color:var(--red)}
+.teacher-line{display:flex;align-items:center;gap:10px;font-size:.9rem;color:#5a4038;margin-bottom:24px}
+.teacher-line .dot{width:38px;height:38px;border-radius:50%;background:var(--red-metal);display:grid;place-items:center;color:#fff;font-family:'Playfair Display';font-weight:700;border:2px solid var(--gold)}
+.hero-price{display:flex;align-items:baseline;gap:12px;margin-bottom:18px;flex-wrap:wrap}
+.hero-price s{color:#8a6c62}
+.hero-price .now{font-family:'Playfair Display';font-size:2rem;font-weight:800}
+
+/* Mockup "pilha de conteúdo" */
+.stack{position:relative;height:430px;max-width:440px;margin:0 auto;width:100%}
+.stack .card{position:absolute;width:56%;aspect-ratio:3/4;border-radius:18px;overflow:hidden;background:#fff;padding:7px;box-shadow:0 22px 40px -16px rgba(46,26,19,.55);border:1px solid rgba(201,162,39,.5)}
+.stack .card img{width:100%;height:100%;object-fit:cover;border-radius:12px}
+.stack .card span{position:absolute;left:14px;bottom:14px;background:rgba(43,26,20,.78);color:#fff;font-size:.7rem;font-weight:600;padding:4px 10px;border-radius:999px;backdrop-filter:blur(4px)}
+.stack .c1{left:0;top:40px;transform:rotate(-11deg)}
+.stack .c2{left:12%;top:8px;transform:rotate(-4deg)}
+.stack .c3{right:12%;top:20px;transform:rotate(5deg)}
+.stack .c4{right:0;top:66px;transform:rotate(12deg)}
+.stack .c5{left:22%;top:95px;width:56%;transform:rotate(0deg);z-index:3}
+.seal{position:absolute;z-index:5;right:-4px;bottom:6px;width:128px;height:128px;border-radius:50%;background:var(--red-metal);background-size:200% 200%;animation:sheen 5s ease-in-out infinite;display:grid;place-items:center;text-align:center;color:#fff;font-weight:700;line-height:1.1;box-shadow:0 12px 26px -8px rgba(78,7,12,.7);border:3px solid transparent;background-clip:padding-box}
+.seal::before{content:"";position:absolute;inset:-6px;border-radius:50%;background:var(--gold-metal);z-index:-1}
+.seal::after{content:"";position:absolute;inset:6px;border-radius:50%;border:1.5px dashed rgba(241,215,122,.8)}
+.seal b{font-family:'Playfair Display';font-size:1.7rem;display:block}
+.seal small{font-size:.68rem;letter-spacing:.08em;text-transform:uppercase}
+
+/* ===== DOR ===== */
+.pains{display:grid;gap:14px;max-width:720px;margin:0 auto}
+.pain{display:flex;gap:14px;align-items:flex-start;background:#fff;border-radius:16px;padding:18px 18px;box-shadow:var(--shadow);border-left:4px solid var(--red)}
+.pain .ic{flex:0 0 40px;height:40px;border-radius:12px;background:#fbe6e7;display:grid;place-items:center;font-size:1.2rem}
+.turn{max-width:720px;margin:28px auto 0;text-align:center;font-size:1.1rem;font-weight:500}
+.turn strong{color:var(--red)}
+
+/* ===== SOLUÇÃO ===== */
+.not-ebook{display:inline-block;margin:6px auto 24px;padding:10px 20px;border-radius:12px;background:#fff;color:var(--red-dk);font-weight:800;letter-spacing:.06em;font-size:1rem;transform:rotate(-2deg);box-shadow:0 10px 24px -10px rgba(0,0,0,.4);border:2px dashed var(--red)}
+.sol-grid{display:grid;gap:16px;margin-top:10px}
+.sol{background:rgba(255,255,255,.08);border:1px solid rgba(241,215,122,.35);border-radius:18px;padding:20px;backdrop-filter:blur(3px)}
+.sol .n{font-family:'Playfair Display';font-size:2rem;font-weight:800;line-height:1}
+.big-quote{max-width:720px;margin:30px auto 0;text-align:center;font-family:'Playfair Display';font-style:italic;font-size:clamp(1.25rem,4.6vw,1.6rem);line-height:1.35}
+
+/* ===== BENTO ===== */
+.bento{display:grid;gap:16px;grid-template-columns:1fr}
+.mod{background:#fff;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column;border:1px solid rgba(201,162,39,.35);transition:transform .25s}
+.mod:hover{transform:translateY(-4px)}
+.mod .ph{position:relative;aspect-ratio:4/3;overflow:hidden}
+.mod .ph img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.mod:hover .ph img{transform:scale(1.05)}
+.mod .tag{position:absolute;top:12px;left:12px;background:var(--red-metal);color:#fff;font-size:.72rem;font-weight:700;letter-spacing:.1em;padding:6px 12px;border-radius:999px;border:1px solid rgba(241,215,122,.7)}
+.mod .body{padding:18px 18px 20px}
+.mod h3{margin-bottom:8px}
+.mod ul{list-style:none;display:grid;gap:6px;font-size:.92rem;color:#5a4038}
+.mod li{padding-left:22px;position:relative}
+.mod li::before{content:"";position:absolute;left:0;top:.55em;width:10px;height:10px;border-radius:50%;background:var(--gold-metal)}
+
+/* ===== TÉCNICAS ===== */
+.tech{display:grid;gap:14px;grid-template-columns:1fr}
+.t{display:flex;gap:14px;align-items:center;background:#fff;border-radius:16px;padding:16px 18px;box-shadow:var(--shadow)}
+.t .ck{flex:0 0 44px;height:44px;border-radius:50%;background:var(--red-metal);display:grid;place-items:center;border:2px solid var(--gold)}
+.t .ck svg{width:20px;height:20px}
+.t p{font-weight:500}
+
+/* ===== BÔNUS ===== */
+.bonus-grid{display:grid;gap:26px;max-width:860px;margin:0 auto}
+.gift{position:relative;background:#fff;color:var(--ink);border-radius:22px;overflow:hidden;box-shadow:0 0 0 3px #C9A227,0 0 0 5px rgba(241,215,122,.35),0 26px 50px -20px rgba(0,0,0,.6)}
+.gift h3,.offer h3{color:var(--choc)}
+.gift .ph{position:relative;aspect-ratio:16/11;overflow:hidden}
+.gift .ph img{width:100%;height:100%;object-fit:cover}
+/* fita vertical + horizontal de presente */
+.gift .rib-v{position:absolute;top:0;bottom:0;left:50%;width:22px;transform:translateX(-50%);background:var(--red-metal);opacity:.92;box-shadow:0 0 0 2px rgba(241,215,122,.5)}
+.gift .bow{position:absolute;top:-6px;left:50%;transform:translateX(-50%);width:110px;height:60px;z-index:2}
+.gift .lbl{position:absolute;top:14px;right:14px;background:var(--gold-metal);color:var(--red-deep);font-weight:800;font-size:.75rem;letter-spacing:.14em;padding:6px 12px;border-radius:8px;z-index:2}
+.gift .body{padding:20px 20px 22px}
+.gift .val{margin-top:12px;display:flex;gap:10px;align-items:center;flex-wrap:wrap;font-size:.9rem}
+.gift .val s{color:#8a6c62}
+.gift .val b{color:var(--green);background:#e5f0ea;padding:3px 10px;border-radius:999px}
+.ph-text{display:grid;place-items:center;height:100%;background:repeating-linear-gradient(45deg,#fbeee0,#fbeee0 12px,#f6e4cf 12px,#f6e4cf 24px)}
+.calc{display:grid;place-items:center;height:100%;background:radial-gradient(circle at 30% 20%,#2a6a50,#133326)}
+.calc .scr{background:#0e2219;border:2px solid var(--gold);border-radius:14px;padding:18px 22px;color:#fff;font-family:'Poppins';min-width:70%;box-shadow:0 18px 30px -12px rgba(0,0,0,.6)}
+.calc .row{display:flex;justify-content:space-between;gap:16px;font-size:.85rem;opacity:.85;border-bottom:1px dashed rgba(255,255,255,.2);padding:5px 0}
+.calc .tot{display:flex;justify-content:space-between;margin-top:8px;font-weight:700;color:var(--gold-lt);font-size:1rem}
+
+/* ===== DISPOSITIVOS ===== */
+.devices{position:relative;max-width:760px;margin:0 auto 10px;height:clamp(250px,62vw,440px)}
+.screen{position:relative;overflow:hidden;background:#111}
+.screen img{width:100%;height:100%;object-fit:cover;opacity:.92}
+.play{position:absolute;inset:0;display:grid;place-items:center}
+.play i{width:52px;height:52px;border-radius:50%;background:var(--red-metal);display:grid;place-items:center;box-shadow:0 6px 18px rgba(0,0,0,.5);border:2px solid rgba(255,255,255,.85)}
+.play i::after{content:"";border-left:15px solid #fff;border-top:9px solid transparent;border-bottom:9px solid transparent;margin-left:4px}
+.prog{position:absolute;left:8%;right:8%;bottom:9%;height:5px;border-radius:9px;background:rgba(255,255,255,.35)}
+.prog::after{content:"";position:absolute;left:0;top:0;bottom:0;width:var(--p,40%);border-radius:9px;background:var(--red)}
+.prog::before{content:"";position:absolute;left:var(--p,40%);top:50%;width:11px;height:11px;border-radius:50%;background:#fff;transform:translate(-50%,-50%)}
+.vtitle{position:absolute;left:8%;bottom:15%;color:#fff;font-size:clamp(.6rem,1.8vw,.85rem);font-weight:600;text-shadow:0 2px 6px rgba(0,0,0,.7)}
+.laptop{position:absolute;left:8%;right:8%;top:0}
+.laptop .lid{background:#1d1d1f;border-radius:14px 14px 4px 4px;padding:3.2% 3.2% 3.6%;box-shadow:0 30px 50px -24px rgba(0,0,0,.6)}
+.laptop .screen{aspect-ratio:16/10;border-radius:4px}
+.laptop .base{height:clamp(10px,2.2vw,16px);background:linear-gradient(#d9d9dd,#a9a9b0);border-radius:0 0 18px 18px;margin:0 -6%}
+.tablet{position:absolute;left:0;bottom:0;width:32%;background:#1d1d1f;border-radius:18px;padding:3.5%;box-shadow:0 22px 40px -16px rgba(0,0,0,.65);z-index:2}
+.tablet .screen{aspect-ratio:3/4;border-radius:8px}
+.phone{position:absolute;right:2%;bottom:-4%;width:20%;background:#1d1d1f;border-radius:22px;padding:2.6%;box-shadow:0 22px 40px -16px rgba(0,0,0,.65);z-index:3}
+.phone .screen{aspect-ratio:9/19;border-radius:14px}
+.phone .play i,.tablet .play i{width:38px;height:38px}
+.phone .play i::after,.tablet .play i::after{border-left-width:11px;border-top-width:7px;border-bottom-width:7px}
+
+.info{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:46px}
+.stat{background:rgba(255,255,255,.07);border:1px solid rgba(241,215,122,.4);border-radius:18px;padding:22px 14px;text-align:center}
+.stat .ico{font-size:1.6rem}
+.stat .num{font-family:'Playfair Display';font-size:clamp(2.4rem,10vw,3.2rem);font-weight:800;line-height:1;margin:6px 0}
+.stat p{font-size:.88rem;opacity:.9}
+
+/* ===== PARA QUEM ===== */
+.who{display:grid;gap:18px}
+.who .col{background:#fff;border-radius:var(--radius);padding:24px;box-shadow:var(--shadow)}
+.who .yes{border-top:5px solid var(--green)}
+.who .no{border-top:5px solid var(--red)}
+.who h3{margin-bottom:14px}
+.who ul{list-style:none;display:grid;gap:10px}
+.who li{display:flex;gap:10px;align-items:flex-start;font-size:.95rem}
+.who .mk{flex:0 0 24px;height:24px;border-radius:50%;display:grid;place-items:center;color:#fff;font-size:.8rem;font-weight:700;margin-top:2px}
+.who .yes .mk{background:var(--green)}
+.who .no .mk{background:var(--red)}
+
+/* ===== PROFESSORA ===== */
+.teacher{display:grid;gap:28px;align-items:center}
+.t-photo{position:relative;max-width:min(340px,72vw);margin:0 auto;width:100%}
+.t-photo .frame{aspect-ratio:4/5;border-radius:200px 200px 24px 24px;overflow:hidden;border:5px solid transparent;background:var(--gold-metal) border-box;box-shadow:var(--shadow)}
+.t-photo .ph{width:100%;height:100%;background:linear-gradient(160deg,#f6e4cf,#ead2b6);display:grid;place-items:center;text-align:center;color:var(--choc);font-weight:600;font-size:.9rem;padding:20px;border-radius:195px 195px 19px 19px}
+.t-photo .chip{position:absolute;bottom:-14px;left:50%;transform:translateX(-50%);white-space:nowrap;background:var(--red-metal);color:#fff;padding:8px 18px;border-radius:999px;font-weight:600;font-size:.85rem;border:1.5px solid var(--gold)}
+.teacher h2{text-align:left}
+.teacher .eyebrow{text-align:left}
+.teacher p{margin-bottom:12px;color:#5a4038}
+
+/* ===== DEPOIMENTOS ===== */
+.testi{display:grid;gap:16px}
+.tbox{min-height:220px;border-radius:20px;border:2.5px dashed rgba(201,162,39,.8);background:rgba(255,255,255,.06);display:grid;place-items:center;text-align:center;padding:22px;font-weight:600;color:var(--gold-lt);font-size:.9rem}
+
+/* ===== MOSAICO ===== */
+.mosaic{display:grid;grid-template-columns:repeat(3,1fr);grid-auto-rows:110px;gap:10px}
+.mosaic figure{border-radius:16px;overflow:hidden;box-shadow:var(--shadow);position:relative}
+.mosaic img{width:100%;height:100%;object-fit:cover}
+.mosaic figcaption{position:absolute;left:8px;bottom:8px;background:rgba(43,26,20,.75);color:#fff;font-size:.66rem;padding:3px 9px;border-radius:999px}
+.mosaic .big{grid-column:span 2;grid-row:span 2}
+.mosaic .tall{grid-row:span 2}
+
+/* ===== OFERTA ===== */
+.offer{max-width:620px;margin:0 auto;background:#fff;color:var(--ink);border-radius:28px;padding:30px 22px 32px;position:relative;box-shadow:0 30px 60px -20px rgba(0,0,0,.65)}
+.offer{box-shadow:0 0 0 3px #C9A227,0 0 0 7px rgba(241,215,122,.3),0 30px 60px -20px rgba(0,0,0,.65)}
+.offer .ftag{position:absolute;top:-17px;left:50%;transform:translateX(-50%);background:var(--red-metal);color:#fff;font-weight:700;font-size:.8rem;letter-spacing:.14em;padding:8px 20px;border-radius:999px;border:1.5px solid var(--gold);white-space:nowrap}
+.offer h3{text-align:center;font-size:1.5rem;margin:8px 0 18px}
+.stack-list{list-style:none;display:grid;gap:0;margin-bottom:22px}
+.stack-list li{display:flex;justify-content:space-between;gap:12px;padding:12px 2px;border-bottom:1px dashed #e6d4c0;font-size:.93rem}
+.stack-list li span:last-child{white-space:nowrap;color:#8a6c62}
+.stack-list li.sum{border-bottom:0;font-weight:700;color:var(--choc);padding-top:14px}
+.price{text-align:center}
+.price .from{color:#8a6c62;font-size:1rem}
+.price .from s{font-weight:600}
+.price .label{font-size:.9rem;color:#5a4038;margin-top:4px}
+.price .now{font-family:'Playfair Display';font-weight:800;font-size:clamp(3.4rem,15vw,4.6rem);line-height:1;margin:4px 0}
+.price .now small{font-size:.45em;vertical-align:.7em;margin-right:4px}
+.price .inst{font-weight:600;color:var(--green);margin-bottom:22px}
+.secure{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:20px}
+.pill{display:inline-flex;align-items:center;gap:6px;padding:7px 12px;border-radius:10px;background:#f7efe5;font-size:.78rem;font-weight:600;color:var(--choc);border:1px solid #ead8c3}
+.pill svg{width:16px;height:16px}
+
+/* ===== GARANTIA ===== */
+.guarantee{display:grid;gap:26px;align-items:center;max-width:860px;margin:0 auto}
+.g-seal{width:200px;height:200px;margin:0 auto;position:relative}
+.g-seal svg{width:100%;height:100%;filter:drop-shadow(0 18px 24px rgba(78,7,12,.35))}
+
+/* ===== FAQ ===== */
+.faq{max-width:760px;margin:0 auto;display:grid;gap:12px}
+.faq details{background:#fff;border-radius:16px;box-shadow:var(--shadow);overflow:hidden;border:1px solid rgba(201,162,39,.3)}
+.faq summary{cursor:pointer;list-style:none;padding:18px 54px 18px 20px;font-weight:600;position:relative}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";position:absolute;right:16px;top:50%;transform:translateY(-50%);width:28px;height:28px;border-radius:50%;background:var(--red-metal);color:#fff;display:grid;place-items:center;font-size:1.2rem;transition:transform .25s}
+.faq details[open] summary::after{transform:translateY(-50%) rotate(45deg)}
+.faq details p{padding:0 20px 18px;color:#5a4038}
+
+/* ===== CTA FINAL ===== */
+.final{text-align:center}
+.final h2{font-size:clamp(2rem,7.5vw,3.2rem)}
+
+/* ===== RODAPÉ ===== */
+footer{background:#1c100c;color:rgba(255,255,255,.7);font-size:.8rem;padding:36px 0 40px;text-align:center}
+footer p{margin-bottom:8px}
+
+/* ===== ANIMAÇÕES DE ENTRADA ===== */
+
+
+/* ===== RESPONSIVO ===== */
+@media (min-width:640px){
+  .bento{grid-template-columns:repeat(2,1fr)}
+  .tech{grid-template-columns:repeat(2,1fr)}
+  .info{grid-template-columns:repeat(4,1fr)}
+  .testi{grid-template-columns:repeat(3,1fr)}
+  .sol-grid{grid-template-columns:repeat(3,1fr)}
+  .mosaic{grid-auto-rows:150px}
+}
+@media (min-width:900px){
+  section{padding:96px 0}
+  .hero .grid{grid-template-columns:1.05fr 1fr}
+  .stack{height:500px}
+  .bento{grid-template-columns:repeat(3,1fr)}
+  .bento .mod:first-child{grid-column:span 2;flex-direction:row}
+  .bento .mod:first-child .ph{flex:1 1 55%;aspect-ratio:auto}
+  .bento .mod:first-child .body{flex:1 1 45%;display:flex;flex-direction:column;justify-content:center}
+  .bonus-grid{grid-template-columns:1fr 1fr}
+  .who{grid-template-columns:1fr 1fr}
+  .teacher{grid-template-columns:.9fr 1.1fr}
+  .guarantee{grid-template-columns:auto 1fr}
+  .mosaic{grid-template-columns:repeat(4,1fr);grid-auto-rows:170px}
+  
+  footer{padding-bottom:40px}
+}
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .8s ease,transform .8s ease}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){
+  .reveal{opacity:1;transform:none}
+  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+}
+
+
+.hero-tags{display:flex;flex-wrap:wrap;gap:8px}
+.pains{grid-template-columns:1fr}
+.pain{border-left:0;border-top:4px solid var(--red)}
+.rech{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;max-width:960px;margin:0 auto}
+.r{display:flex;flex-direction:column;align-items:center;text-align:center;gap:12px;padding:22px 14px;border-radius:18px;background:rgba(255,255,255,.1);border:1px solid rgba(241,215,122,.45)}
+.r p{font-weight:600;font-size:.95rem;line-height:1.35}
+.dol{width:64px;height:64px;border-radius:50% 50% 46% 46%;box-shadow:0 10px 18px -8px rgba(0,0,0,.55),inset 0 -4px 8px rgba(0,0,0,.12);border:2px solid rgba(241,215,122,.8)}
+@media (min-width:640px){.pains{grid-template-columns:repeat(3,minmax(0,1fr))}.rech{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.prog.p38{--p:38%}.prog.p62{--p:62%}.prog.p25{--p:25%}
+.m1{display:grid;grid-template-columns:1fr;gap:14px;max-width:960px;margin:0 auto}
+.m1c{background:#fff;border-radius:18px;padding:22px;box-shadow:var(--shadow);border:1px solid rgba(201,162,39,.35)}
+.m1c h3{font-size:1.1rem;margin:12px 0 6px}
+.m1c p{font-size:.92rem;color:#5a4038}
+.m1i{width:46px;height:46px;border-radius:50%;background:var(--red-metal);display:grid;place-items:center;border:2px solid var(--gold)}
+.m1i svg{width:22px;height:22px}
+@media (min-width:640px){.m1{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (min-width:900px){.m1{grid-template-columns:repeat(4,minmax(0,1fr))}}
+/* ===== DOR: VOCÊ JÁ SABE O QUE VAI OFERECER? ===== */
+.p2grid{display:grid;gap:40px;align-items:center}
+.p2photo{position:relative;max-width:560px;margin:0 auto;width:100%}
+.p2frame{border-radius:28px;overflow:hidden;aspect-ratio:4/3;box-shadow:var(--shadow);position:relative;z-index:1}
+.p2frame img{width:100%;height:100%;object-fit:cover;object-position:center}
+.p2photo::after{content:"";position:absolute;inset:14px -14px -14px 14px;border:2px dashed rgba(179,32,42,.55);border-radius:30px;z-index:0}
+.p2stamp{position:absolute;right:-18px;bottom:-26px;width:104px;height:104px;z-index:2;filter:drop-shadow(0 10px 16px rgba(78,7,12,.4))}
+.p2stamp svg{width:100%;height:100%}
+.p2text h2,.dtext h2{text-align:left;margin-bottom:18px}
+.p2text p,.dtext p{color:#5a4038;margin-bottom:14px;font-size:1.03rem}
+.p2text strong,.dtext strong{color:var(--choc)}
+.p2text .red,.dtext .red{color:var(--red)}
+.p2text .p2quote{border-left:4px solid var(--red);padding:4px 0 4px 18px;font-family:'Playfair Display',Georgia,serif;font-weight:700;font-size:clamp(1.3rem,4.4vw,1.6rem);line-height:1.3;color:var(--red)!important;margin:22px 0!important}
+/* ===== SONHO: IMAGINE ESTE NATAL ===== */
+.dream{background:radial-gradient(70% 60% at 85% 20%,rgba(179,32,42,.10),transparent 60%),var(--cream-2)}
+.dtext p{font-size:1.1rem}
+.dphone{width:100%;max-width:360px;margin:0 auto;background:#2B1A14;border-radius:46px;padding:12px;box-shadow:0 30px 60px -24px rgba(46,26,19,.6),0 0 0 2px rgba(201,162,39,.5)}
+.dscreen{border-radius:36px;padding:16px 14px 18px;background:linear-gradient(180deg,#B3202A 0%,#7A0E16 34%,#F8EBDA 34.1%,#FFF8EE 100%);display:grid;gap:10px}
+.dnotch{width:96px;height:24px;border-radius:14px;background:#2B1A14;margin:0 auto}
+.ddate{text-align:center;font-family:'Playfair Display',Georgia,serif;font-weight:800;font-size:3rem;line-height:1.1;color:#fff;text-shadow:0 4px 14px rgba(0,0,0,.25);margin:6px 0 10px}
+.dcard{display:flex;gap:12px;align-items:flex-start;background:#fff;border-radius:16px;padding:12px 14px;box-shadow:0 10px 22px -14px rgba(46,26,19,.45);border:1px solid rgba(201,162,39,.35)}
+.dcard b{display:block;font-size:.72rem;letter-spacing:.08em;color:var(--red)}
+.dcard p{font-size:.84rem;line-height:1.4;color:#5a4038}
+.dic{flex:0 0 34px;height:34px;border-radius:10px;background:var(--red-metal);display:grid;place-items:center}
+.dic svg{width:17px;height:17px}
+@media (min-width:900px){
+  .p2grid{grid-template-columns:1fr 1fr;gap:64px}
+  .dgrid{grid-template-columns:1.1fr .9fr}
+}
+/* ===== TUDO O QUE VOCÊ PRECISA (abas + módulos) ===== */
+.tudo .red,.porque .red{color:var(--red)}
+.sbtabs{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;max-width:860px;margin:0 auto 22px}
+.sbtab{display:inline-flex;align-items:center;gap:6px;min-height:40px;padding:8px 14px;border-radius:12px;border:1.5px solid rgba(179,32,42,.35);background:#fff;color:var(--red-dk);font-family:'Poppins',sans-serif;font-weight:600;font-size:.82rem;cursor:pointer;transition:all .2s}
+.sbtab svg{width:16px;height:16px;flex:0 0 16px}
+.sbtab:hover{border-color:var(--red)}
+.sbtab.on{background:var(--red-metal);color:#fff;border-color:var(--gold);box-shadow:var(--shadow-red)}
+.sbbox{max-width:860px;margin:0 auto 30px}
+.sbpanel[hidden]{display:none!important}
+.sbpanel{display:grid;gap:20px;background:#fff;border-radius:24px;padding:16px;box-shadow:var(--shadow);border:1px solid rgba(201,162,39,.35);align-items:center}
+.sbimg{border-radius:18px;overflow:hidden;aspect-ratio:4/3}
+.sbimg img{width:100%;height:100%;object-fit:cover}
+.sbinfo{padding:4px 8px 8px}
+.sbnum{display:inline-block;background:var(--gold-metal);color:var(--red-deep);font-weight:700;font-size:.7rem;letter-spacing:.1em;padding:5px 10px;border-radius:8px;margin-bottom:10px}
+.sbinfo h3{font-size:1.5rem;margin-bottom:12px}
+.sbinfo ul{list-style:none;display:grid;gap:10px}
+.sbinfo li{display:flex;gap:10px;align-items:flex-start;font-size:.93rem;color:#5a4038}
+.sbinfo li svg{width:20px;height:20px;flex:0 0 20px;margin-top:2px}
+.accs{max-width:640px;margin:0 auto;display:grid;gap:12px}
+.acc{background:#fff;border-radius:16px;box-shadow:var(--shadow);border:1px solid rgba(201,162,39,.35);overflow:hidden}
+.acc[open]{border:1.5px solid var(--red)}
+.acc summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:14px;padding:16px 54px 16px 16px;position:relative}
+.acc summary::-webkit-details-marker{display:none}
+.acc summary::after{content:"+";position:absolute;right:16px;top:50%;transform:translateY(-50%);width:26px;height:26px;border-radius:50%;background:#fbe6e7;color:var(--red);display:grid;place-items:center;font-weight:700;transition:transform .25s}
+.acc[open] summary::after{transform:translateY(-50%) rotate(45deg)}
+.accn{flex:0 0 34px;height:34px;border-radius:50%;background:var(--red-metal);color:#fff;display:grid;place-items:center;font-weight:700;border:2px solid var(--gold)}
+.acct b{display:block;color:var(--choc)}
+.acct small{color:#8a6c62;font-size:.8rem}
+.acc ul{list-style:none;padding:0 20px 18px 64px;display:grid;gap:6px;font-size:.9rem;color:#5a4038}
+.acc li{position:relative}
+.acc li::before{content:"";position:absolute;left:-16px;top:.6em;width:7px;height:7px;border-radius:50%;background:var(--red)}
+.callout{max-width:640px;margin:26px auto 0;background:#fbe6e7;border-left:4px solid var(--red);border-radius:14px;padding:18px 20px;color:#5a4038;font-size:.98rem}
+.callout strong{color:var(--choc)}
+/* ===== POR QUE TRABALHAR COM SOBREMESAS NATALINAS ===== */
+.whys{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;max-width:960px;margin:0 auto 30px}
+.why{background:#fff;border-radius:16px;padding:18px 16px;box-shadow:var(--shadow);border:1px solid rgba(201,162,39,.35)}
+.why:nth-child(even){background:#fff4f2;border-color:rgba(179,32,42,.25)}
+.whyi{width:40px;height:40px;border-radius:12px;background:var(--red-metal);display:grid;place-items:center;border:1.5px solid var(--gold);margin-bottom:12px}
+.why:nth-child(even) .whyi{background:linear-gradient(135deg,#123024,#1F4D3A 45%,#3a7a5d 60%,#1F4D3A)}
+.whyi svg{width:20px;height:20px}
+.why h3{font-family:'Poppins',sans-serif;font-size:.95rem;font-weight:700;margin-bottom:6px;color:var(--choc)}
+.why p{font-size:.85rem;color:#5a4038;line-height:1.45}
+.bigphoto{max-width:720px;margin:0 auto;border-radius:26px;overflow:hidden;aspect-ratio:4/3;box-shadow:var(--shadow);border:3px solid #C9A227}
+.bigphoto img{width:100%;height:100%;object-fit:cover;object-position:center}
+.closing{max-width:680px;margin:26px auto 0;text-align:center;font-family:'Playfair Display',Georgia,serif;font-weight:700;font-size:clamp(1.3rem,4.6vw,1.75rem);line-height:1.3;color:var(--choc)}
+@media (min-width:700px){.sbpanel{grid-template-columns:1fr 1fr}}
+@media (min-width:900px){.whys{grid-template-columns:repeat(4,minmax(0,1fr))}}
+
+/* ===== FOTOS INTEIRAS (formato 3:4, sem cortar) ===== */
+.sbimg{aspect-ratio:3/4!important;max-width:380px;width:100%;margin:0 auto}
+.p2frame{aspect-ratio:3/4!important;max-width:440px;margin:0 auto}
+.p2photo{max-width:440px!important}
+.bigphoto{aspect-ratio:3/4!important;max-width:480px!important}
+.gift .ph{aspect-ratio:3/4!important}
+.mosaic{grid-template-columns:repeat(2,minmax(0,1fr))!important;grid-auto-rows:auto!important}
+.mosaic figure{aspect-ratio:3/4;grid-column:auto!important;grid-row:auto!important}
+@media (min-width:640px){.mosaic{grid-template-columns:repeat(3,minmax(0,1fr))!important}}
+@media (min-width:900px){.mosaic{grid-template-columns:repeat(4,minmax(0,1fr))!important}}
+img{object-position:center}
+a{color:inherit}
+</style>
+</head>
+<body>
+<main>
+
+
+
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="gGold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8C6A12"></stop><stop offset=".35" stop-color="#F6E09A"></stop><stop offset=".6" stop-color="#C9A227"></stop><stop offset="1" stop-color="#E8C962"></stop></linearGradient>
+    <linearGradient id="gRed" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5E0910"></stop><stop offset=".3" stop-color="#D8404B"></stop><stop offset=".55" stop-color="#9E1520"></stop><stop offset=".8" stop-color="#C92F3A"></stop><stop offset="1" stop-color="#5E0910"></stop></linearGradient>
+  </defs>
+  <symbol id="star" viewBox="0 0 24 24"><path fill="url(#gGold)" d="M12 1.5l2.6 6.9 7.4.4-5.8 4.6 2 7.1L12 16.4l-6.2 4.1 2-7.1L2 8.8l7.4-.4z"></path></symbol>
+  <symbol id="check" viewBox="0 0 24 24"><path fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M5 12.5l4.5 4.5L19 7.5"></path></symbol>
+  <symbol id="bow" viewBox="0 0 110 60"><path fill="url(#gRed)" stroke="#F1D77A" stroke-width="1.5" d="M55 30C40 6 10 4 12 22c1.5 13 26 14 43 8zM55 30c15-24 45-26 43-8-1.5 13-26 14-43 8z"></path><path fill="url(#gRed)" stroke="#F1D77A" stroke-width="1.5" d="M50 32l-14 26 10-3 6 5 3-26zM60 32l14 26-10-3-6 5-3-26z"></path><circle cx="55" cy="30" r="8" fill="url(#gGold)"></circle></symbol>
+  <symbol id="lock" viewBox="0 0 24 24"><path fill="none" stroke="#1F4D3A" stroke-width="2.2" stroke-linecap="round" d="M6 11h12v9H6zM8.5 11V8a3.5 3.5 0 017 0v3"></path></symbol>
+</svg>
+
+
+<div class="topbar" role="note">sobremesas praticas para produzir e vender</div>
+
+<div style="width:100%">
+
+<section class="hero" id="topo">
+  <div class="wrap grid">
+    <div>
+      <span class="badge">🎄 Treinamento em videoaulas</span>
+      <h1>Especial&nbsp;<span class="metal-text">Sobremesas natalinas,</span>&nbsp;para produzir e <span class="metal-text">vender muito</span></h1>
+      <p class="sub">Aproveite o Natal para vender mais com sobremesas fáceis de preparar, lindas de apresentar e que despertam desejo.</p>
+      <div class="teacher-line"><span class="dot">K</span><span>Com <strong>Keylla</strong>, da <strong>Família Brigadier</strong></span></div>
+      <div class="hero-tags">
+        <span class="pill">▶ Aulas gravadas</span>
+        <span class="pill">📱 Assista pelo celular</span>
+        <span class="pill">💬 Suporte no WhatsApp</span>
+        <span class="pill">🛡️ 7 dias de garantia</span>
+      </div>
+    </div>
+    <div class="stack" aria-label="Coleção das sobremesas do treinamento">
+      <div class="card c1"><img src="img/uva.jpg" alt="Surpresa de uva com ganache de chocolate e uvas verdes"><span>Surpresa de uva</span></div>
+      <div class="card c2"><img src="img/banoffee.jpg" loading="lazy" alt="Banoffee com chantilly, doce de leite e banana caramelizada"><span>Banoffee</span></div>
+      <div class="card c3"><img src="img/maracuja.jpg" loading="lazy" alt="Tortinha de maracujá com rosas de brigadeiro"><span>Tortinha de maracujá</span></div>
+      <div class="card c4"><img src="img/bombom.jpg" loading="lazy" alt="Bombom de morango no pote com ganache"><span>Bombom de morango</span></div>
+      <div class="card c5"><img src="img/guirlanda.jpg" loading="lazy" alt="Guirlanda de brownie decorada com morangos, brigadeiros e laço verde"><span>Guirlanda de brownie</span></div>
+      <div class="seal"><div><b>4</b><small>módulos</small><br><b style="font-size:1.05rem">+ 2</b><small>bônus</small></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-cream pain2">
+  <div class="wrap p2grid">
+    <div class="p2photo reveal">
+      <div class="p2frame"><img src="img/redvelvet.jpg" loading="lazy" alt="Sobremesa de red velvet no pote com creme branco e morangos, com outras sobremesas de Natal ao fundo"></div>
+      <div class="p2stamp" aria-hidden="true">
+        <svg viewBox="0 0 100 100">
+          <defs><path id="stampCircle" d="M50 50m-36 0a36 36 0 1 1 72 0a36 36 0 1 1 -72 0"></path></defs>
+          <circle cx="50" cy="50" r="48" fill="url(#gRed)"></circle>
+          <circle cx="50" cy="50" r="44" fill="none" stroke="#F1D77A" stroke-width="1" stroke-dasharray="2 3"></circle>
+          <text font-family="Poppins" font-size="8" font-weight="600" letter-spacing="1.2" fill="#F1D77A"><textPath href="#stampCircle">SOBREMESAS NATALINAS • FAMÍLIA BRIGADIER • </textPath></text>
+          <path fill="url(#gGold)" d="M50 37l3.6 8.6 9.3.6-7.2 5.9 2.4 9.1L50 56.1l-8.1 5.1 2.4-9.1-7.2-5.9 9.3-.6z"></path>
+        </svg>
+      </div>
+    </div>
+    <div class="p2text reveal">
+      <h2>Você já sabe o que vai <span class="metal-text">oferecer às suas clientes</span> neste Natal?</h2>
+      <p>Todo fim de ano é igual: a procura por sobremesa dispara, as clientes começam a perguntar <em>"o que você vai ter para o Natal?"</em> e vem aquela dúvida sobre o que oferecer, quais sabores fazer e quanto dá para produzir…</p>
+      <p>E se você já tentou acertar sozinha, sabe como é: <strong>brigadeiro que não dá o ponto, creme que desanda, ingrediente jogado fora e horas perdidas testando receita.</strong></p>
+      <p class="p2quote">E em dezembro não sobra tempo para errar!</p>
+      <p>É justamente aí que as <strong class="red">sobremesas natalinas</strong> fazem diferença: são lindas, saborosas, prontas para ir direto à mesa e <strong>exatamente o que a cliente procura para servir à família na ceia.</strong></p>
+    </div>
+  </div>
+</section>
+
+<section class="dream">
+  <div class="wrap p2grid dgrid">
+    <div class="dtext reveal">
+      <h2>Agora imagine este Natal <span class="metal-text">um pouquinho diferente…</span></h2>
+      <p>É assim que o seu nome começa a ser lembrado na sua cidade: <strong>a confeiteira que faz a sobremesa mais bonita e mais gostosa da ceia!</strong> E cada encomenda é um passo a mais rumo à <strong class="red">renda extra e à liberdade</strong> que você quer ter.</p>
+    </div>
+    <div class="dphone" role="img" aria-label="Celular com notificações de encomendas de Natal">
+      <div class="dscreen">
+        <div class="dnotch"></div>
+        <div class="ddate">24/12</div>
+        <div class="dcard reveal"><span class="dic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12a8.5 8.5 0 01-12.4 7.6L3 21l1.4-5.6A8.5 8.5 0 1121 12z" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round"></path></svg></span><div><b>NOVA ENCOMENDA</b><p>Seu WhatsApp não para de tocar com clientes querendo garantir a sobremesa da ceia.</p></div></div>
+        <div class="dcard reveal"><span class="dic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v14H4zM4 10h16M9 3v5M15 3v5" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path></svg></span><div><b>AGENDA DE NATAL</b><p>Cardápio pronto, você sabe exatamente o que produzir e organiza as encomendas com calma, sem improviso.</p></div></div>
+        <div class="dcard reveal"><span class="dic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.4 5.6 6 .5-4.6 3.9 1.4 5.9L12 15.8 6.8 18.9l1.4-5.9L3.6 9.1l6-.5z" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round"></path></svg></span><div><b>NOITE DE NATAL</b><p>A sua sobremesa no centro da mesa, com todo mundo tirando foto antes de servir.</p></div></div>
+        <div class="dcard reveal"><span class="dic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-4.4-9.3-9A5.3 5.3 0 0112 6.3 5.3 5.3 0 0121.3 12C19 16.6 12 21 12 21z" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round"></path></svg></span><div><b>CLIENTE</b><p>"Estava maravilhosa! Qual é o seu Instagram? Quero encomendar para o Ano-Novo."</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-cream2">
+  <div class="wrap">
+    <span class="eyebrow">Por que agora</span>
+    <h2>O Natal é a época que <span class="metal-text">mais vende doces</span></h2>
+    <p class="lead">Mas muita confeiteira chega em dezembro sem cardápio novo, erra o ponto do recheio ou não sabe quanto cobrar. Este treinamento resolve os três.</p>
+    <div class="pains">
+      <div class="pain reveal"><div class="ic">📋</div><p><strong>Cardápio pronto:</strong> 6 sobremesas que chamam atenção na ceia.</p></div>
+      <div class="pain reveal"><div class="ic">🥄</div><p><strong>Bases no ponto:</strong> cremosas, brilhantes e firmes para a montagem.</p></div>
+      <div class="pain reveal"><div class="ic">💰</div><p><strong>Preço certo:</strong> aula de precificação para você lucrar de verdade.</p></div>
+    </div>
+    <div style="text-align:center;margin-top:26px"><span class="not-ebook">NÃO É SÓ UM E-BOOK: SÃO VIDEOAULAS</span></div>
+  </div>
+</section>
+
+<section class="bg-cream tudo">
+  <div class="wrap">
+    <h2>Tudo o que você precisa para montar sobremesas <span class="metal-text">bonitas e cheias de sabor</span></h2>
+    <p class="lead">Você vai acompanhar <strong>cada etapa</strong>, do preparo das bases cremosas até a montagem e a finalização. São receitas pensadas para <strong class="red">facilitar a sua produção!</strong></p>
+    <div class="sbtabs">
+        <button type="button" class="sbtab on" data-tab="1"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h16M5 20v-6h14v6M8 14v-3h8v3M12 11V8M12 5.5v.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>Escondidinho de brownie</span></button>
+        <button type="button" class="sbtab" data-tab="2"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h16M5 20v-6h14v6M8 14v-3h8v3M12 11V8M12 5.5v.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>Banoffee</span></button>
+        <button type="button" class="sbtab" data-tab="3"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h16M5 20v-6h14v6M8 14v-3h8v3M12 11V8M12 5.5v.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>Red Velvet</span></button>
+        <button type="button" class="sbtab" data-tab="4"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h16M5 20v-6h14v6M8 14v-3h8v3M12 11V8M12 5.5v.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>Tortinha de maracujá com brigadeiro</span></button>
+        <button type="button" class="sbtab" data-tab="5"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h16M5 20v-6h14v6M8 14v-3h8v3M12 11V8M12 5.5v.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>Bombom de morango</span></button>
+        <button type="button" class="sbtab" data-tab="6"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h16M5 20v-6h14v6M8 14v-3h8v3M12 11V8M12 5.5v.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>Surpresa de uva</span></button>
+    </div>
+    <div class="sbbox">
+      <div class="sbpanel" data-panel="1">
+          <div class="sbimg"><img src="img/escondidinho.jpg" loading="lazy" alt="Escondidinho de brownie com morangos e cobertura de chocolate"></div>
+          <div class="sbinfo"><span class="sbnum">SOBREMESA 01 DE 06</span><h3>Escondidinho de brownie</h3><ul><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#B3202A"></circle><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>Brownie com aquela casquinha característica, assado no ponto certo</span></li><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#B3202A"></circle><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>Camadas de creme cremoso intercaladas com o brownie</span></li><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#B3202A"></circle><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>Finalização com morangos e cobertura brilhante de chocolate</span></li></ul></div>
+        </div>
+      <div class="sbpanel" data-panel="2" hidden>
+          <div class="sbimg"><img src="img/banoffee.jpg" loading="lazy" alt="Banoffee com base crocante, doce de leite, banana e chantilly"></div>
+          <div class="sbinfo"><span class="sbnum">SOBREMESA 02 DE 06</span><h3>Banoffee</h3><ul><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#B3202A"></circle><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>Base crocante que não amolece no pote</span></li><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#B3202A"></circle><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>Camadas de doce de leite e banana caramelizada</span></li><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#B3202A"></circle><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>Chantilly firme para uma decoração bonita</span></li></ul></div>
+        </div>
+      <div class="sbpanel" data-panel="3" hidden>
+          <div class="sbimg"><img src="img/redvelvet.jpg" loading="lazy" alt="Sobremesa de red velvet com creme branco e morangos"></div>
+          <div class="sbinfo"><span class="sbnum">SOBREMESA 03 DE 06</span><h3>Red Velvet</h3><ul><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#B3202A"></circle><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>Massa vermelha, macia e úmida</span></li><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#B3202A"></circle><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>Creme que equilibra o sabor e dá o contraste das camadas</span></li><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#B3202A"></circle><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>Montagem elegante, perfeita para a ceia</span></li></ul></div>
+        </div>
+      <div class="sbpanel" data-panel="4" hidden>
+          <div class="sbimg"><img src="img/maracuja.jpg" loading="lazy" alt="Tortinha de maracujá com brigadeiro e rosas de chocolate"></div>
+          <div class="sbinfo"><span class="sbnum">SOBREMESA 04 DE 06</span><h3>Tortinha de maracujá com brigadeiro</h3><ul><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#B3202A"></circle><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>Base crocante e recheio de brigadeiro de maracujá</span></li><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#B3202A"></circle><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>Rosas de brigadeiro de chocolate feitas no bico</span></li><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#B3202A"></circle><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>Equilíbrio entre o azedinho e o chocolate</span></li></ul></div>
+        </div>
+      <div class="sbpanel" data-panel="5" hidden>
+          <div class="sbimg"><img src="img/bombom.jpg" loading="lazy" alt="Bombom de morango no pote com creme branco e ganache"></div>
+          <div class="sbinfo"><span class="sbnum">SOBREMESA 05 DE 06</span><h3>Bombom de morango</h3><ul><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#B3202A"></circle><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>Creme branco estável que não escorre</span></li><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#B3202A"></circle><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>Morangos inteiros envoltos no creme</span></li><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#B3202A"></circle><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>Cobertura de chocolate brilhante por cima</span></li></ul></div>
+        </div>
+      <div class="sbpanel" data-panel="6" hidden>
+          <div class="sbimg"><img src="img/uva.jpg" loading="lazy" alt="Surpresa de uva com uvas verdes, creme e cobertura de chocolate"></div>
+          <div class="sbinfo"><span class="sbnum">SOBREMESA 06 DE 06</span><h3>Surpresa de uva</h3><ul><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#B3202A"></circle><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>Uvas verdes envoltas em creme no ponto certo</span></li><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#B3202A"></circle><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>Cobertura de chocolate que cobre sem escorrer</span></li><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="#B3202A"></circle><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg><span>Decoração em mandala com raspas de chocolate branco</span></li></ul></div>
+        </div>
+    </div>
+    <div class="accs">
+      <details class="acc" open><summary><span class="accn">1</span><span class="acct"><b>Seja bem-vinda</b></span></summary><ul><li>Boas-vindas ao treinamento</li><li>Como faturar mais nesse Natal</li><li>Indicação de utensílios</li><li>Suporte individual no WhatsApp</li></ul></details>
+      <details class="acc"><summary><span class="accn">2</span><span class="acct"><b>Bases cremosas</b><small>7 receitas base</small></span></summary><ul><li>Brigadeiro branco base</li><li>Saborização: brigadeiro cream cheese</li><li>Saborização: brigadeiro maracujá</li><li>Brigadeiro de leite Ninho</li><li>Brigadeiro de chocolate</li><li>Creme de leite Ninho</li><li>Creme de chocolate meio amargo</li></ul></details>
+      <details class="acc"><summary><span class="accn">3</span><span class="acct"><b>Montagem das sobremesas</b><small>6 sobremesas completas</small></span></summary><ul><li>Escondidinho de brownie</li><li>Banoffee</li><li>Red Velvet</li><li>Tortinha de maracujá com brigadeiro</li><li>Bombom de morango</li><li>Surpresa de uva</li></ul></details>
+      <details class="acc"><summary><span class="accn">4</span><span class="acct"><b>Bônus</b><small>2 aulas extras</small></span></summary><ul><li>Guirlanda de brownie</li><li>Precificação na prática</li></ul></details>
+    </div>
+    <div class="callout">Com as bases cremosas prontas, você não aprende só 6 receitas: aprende a <strong>organizar a produção em etapas</strong>, otimizar o seu tempo e preparar <strong class="red">várias encomendas para a mesma data!</strong></div>
+  </div>
+</section>
+
+<section class="bg-cream2 porque">
+  <div class="wrap">
+    <h2>Por que trabalhar com <span class="metal-text">sobremesas natalinas?</span></h2>
+    <p class="lead">Elas são <strong>práticas de produzir</strong>, <strong>rápidas de montar</strong> e permitem organizar uma <strong>produção em quantidade</strong>, sem depender de decorações difíceis ou processos demorados.</p>
+    <div class="whys">
+      <div class="why"><span class="whyi"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7v5l3 2M12 21a9 9 0 100-18 9 9 0 000 18z" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span><h3>Rápidas e práticas de montar</h3><p>Produção em etapas, que cabe na sua rotina.</p></div>
+      <div class="why"><span class="whyi"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7l9-4 9 4-9 4zM3 7v10l9 4 9-4V7M12 11v10" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span><h3>Produção em maior escala</h3><p>Várias encomendas para a mesma data, sem correria.</p></div>
+      <div class="why"><span class="whyi"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h12l-1 16H7zM6 8h12" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span><h3>Ingredientes conhecidos e acessíveis</h3><p>Nada de insumo difícil de encontrar.</p></div>
+      <div class="why"><span class="whyi"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l1.8 4.6L18 9l-4.2 1.4L12 15l-1.8-4.6L6 9l4.2-1.4zM19 15l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span><h3>Apresentação bonita e atrativa</h3><p>A cliente compra com os olhos.</p></div>
+      <div class="why"><span class="whyi"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l4 7h-3l4 7h-3v6h-4v-6H7l4-7H8z" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span><h3>Ideais para encomendas de Natal</h3><p>Feitas para compartilhar em família.</p></div>
+      <div class="why"><span class="whyi"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v14H4zM4 10h16M9 3v5M15 3v5" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span><h3>Vendem o ano inteiro</h3><p>Outras datas comemorativas e encomendas de fim de semana.</p></div>
+      <div class="why"><span class="whyi"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21a9 9 0 100-18 9 9 0 000 18zM15 9.5c-.5-1-1.6-1.5-3-1.5-1.7 0-3 .8-3 2s1.3 1.7 3 2 3 .8 3 2-1.3 2-3 2c-1.4 0-2.5-.5-3-1.5M12 6v12" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span><h3>Ótima margem de lucro</h3><p>Alto valor percebido com uma produção simples.</p></div>
+      <div class="why"><span class="whyi"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12a8.5 8.5 0 01-12.4 7.6L3 21l1.4-5.6A8.5 8.5 0 1121 12z" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span><h3>Fáceis de apresentar e vender</h3><p>Sabores que a cliente já conhece e deseja.</p></div>
+    </div>
+    <div class="bigphoto"><img src="img/uva.jpg" loading="lazy" alt="Mesa com várias sobremesas natalinas: surpresa de uva em destaque, bombom de morango, red velvet e tortinha de maracujá ao fundo"></div>
+    <p class="closing">Você não precisa passar mais um Natal sem saber o que produzir ou oferecer às suas clientes!</p>
+  </div>
+</section>
+
+<section class="bg-green snow">
+  <div class="wrap">
+    <span class="eyebrow">🎁 Módulo 4 • Bônus</span>
+    <h2>2 bônus com <span class="gold-text">passo a passo</span></h2>
+    <p class="lead">Inclusos no seu acesso, sem custo a mais.</p>
+    <div class="bonus-grid">
+      <article class="gift reveal">
+        <div class="ph"><img src="img/guirlanda.jpg" loading="lazy" alt="Guirlanda de brownie com creme, morangos, bombons e laço verde"></div>
+        <svg class="bow" aria-hidden="true"><use href="#bow"></use></svg><span class="lbl">BÔNUS 1</span>
+        <div class="body"><h3>Guirlanda de brownie</h3><p>Videoaula passo a passo da montagem da sobremesa que <strong>vira destaque na mesa de Natal</strong>.</p></div>
+      </article>
+      <article class="gift reveal">
+        <div class="ph"><div class="calc" role="img" aria-label="Ilustração de uma calculadora de precificação"><div class="scr">
+          <div class="row"><span>Ingredientes</span><span>R$ ••</span></div>
+          <div class="row"><span>Embalagem</span><span>R$ ••</span></div>
+          <div class="row"><span>Gás e energia</span><span>R$ ••</span></div>
+          <div class="row"><span>Mão de obra</span><span>R$ ••</span></div>
+          <div class="tot"><span>Preço de venda</span><span>✓ certo</span></div>
+        </div></div></div>
+        <svg class="bow" aria-hidden="true"><use href="#bow"></use></svg><span class="lbl">BÔNUS 2</span>
+        <div class="body"><h3>Precificação na prática</h3><p>Passo a passo para <strong>calcular o preço da sua guirlanda</strong>, cobrindo custos e garantindo o lucro.</p></div>
+      </article>
+    </div>
+  </div>
+</section>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="width:100%">
+
+<section class="bg-cream">
+  <div class="wrap">
+    <span class="eyebrow">Para quem é</span>
+    <h2>Esse treinamento é <span class="metal-text">para você</span> se…</h2>
+    <p class="lead"></p>
+    <div class="who" style="grid-template-columns:1fr;max-width:720px;margin:0 auto">
+      <div class="col yes reveal"><ul>
+        <li><span class="mk">✓</span><span>Já vende doces e quer um <strong>cardápio de Natal diferente</strong></span></li>
+        <li><span class="mk">✓</span><span>Quer <strong>começar a vender</strong> na melhor época do ano</span></li>
+        <li><span class="mk">✓</span><span>É <strong>iniciante</strong> e precisa ver tudo em vídeo, com <strong>suporte</strong> para tirar dúvidas</span></li>
+        <li><span class="mk">✓</span><span>Quer acertar o <strong>ponto dos recheios</strong> e <strong>cobrar o preço justo</strong></span></li>
+      </ul></div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-cream2">
+  <div class="wrap teacher">
+    <div class="t-photo reveal">
+      <div class="frame"><img src="img/keylla.jpg" loading="lazy" alt="Keylla, da Família Brigadier, sorrindo e segurando uma assadeira de brownie na cozinha" style="width:100%;height:100%;object-fit:cover;object-position:center 20%;border-radius:195px 195px 19px 19px"></div>
+      <span class="chip">✨ Família Brigadier</span>
+    </div>
+    <div>
+      <span class="eyebrow">Quem vai te ensinar</span>
+      <h2>Prazer, eu sou a <span class="metal-text">Keylla</span></h2>
+      <p><strong>Confeiteira da Família Brigadier</strong>&nbsp;há mais de 7 anos.</p>
+      <p>Todas as sobremesas deste treinamento saíram da minha cozinha. Gravei cada detalhe para você conseguir <strong>reproduzir em casa e vender</strong> neste Natal.</p>
+    </div>
+  </div>
+</section>
+
+<section class="bg-cream">
+  <div class="wrap">
+    <span class="eyebrow">Imagine ❤️🎄</span>
+    <h2>Todas essas opções no <span class="metal-text">seu cardápio</span> neste Natal</h2>
+    <p class="lead"></p>
+    <div class="mosaic reveal">
+      <figure class="big"><img src="img/guirlanda.jpg" loading="lazy" alt="Guirlanda de brownie natalina"><figcaption>Guirlanda de brownie</figcaption></figure>
+      <figure class="tall"><img src="img/bombom.jpg" loading="lazy" alt="Bombom de morango"><figcaption>Bombom de morango</figcaption></figure>
+      <figure><img src="img/redvelvet.jpg" loading="lazy" alt="Sobremesa de red velvet"><figcaption>Red Velvet</figcaption></figure>
+      <figure class="tall"><img src="img/uva.jpg" loading="lazy" alt="Surpresa de uva"><figcaption>Surpresa de uva</figcaption></figure>
+      <figure><img src="img/banoffee.jpg" loading="lazy" alt="Banoffee"><figcaption>Banoffee</figcaption></figure>
+      <figure><img src="img/maracuja.jpg" loading="lazy" alt="Tortinha de maracujá com brigadeiro"><figcaption>Tortinha de maracujá</figcaption></figure>
+      <figure><img src="img/escondidinho.jpg" loading="lazy" alt="Escondidinho de brownie"><figcaption>Escondidinho</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="bg-green snow" id="oferta">
+  <div class="wrap">
+    <span class="eyebrow">Oferta especial de Natal</span>
+    <h2>Garanta seu acesso <span class="gold-text">hoje</span></h2>
+    <p class="lead">As encomendas de Natal começam agora. Quanto antes você aprender, <strong>mais pedidos consegue pegar</strong>.</p>
+    <div class="offer reveal">
+      <span class="ftag">🎄 TUDO O QUE ESTÁ INCLUSO</span>
+      <h3>Especial Sobremesas Natalinas</h3>
+      
+      <ul class="stack-list">
+        <li><span>👋 Módulo 1: Seja bem-vinda (faturar mais no Natal + utensílios)</span><span><br></span></li>
+        <li><span>🥄 Módulo 2: Bases cremosas, 7 videoaulas</span><span><br></span></li>
+        <li><span>🎬 Módulo 3: Montagens das 6 sobremesas</span><span><br></span></li>
+        <li><span>🌲 Bônus 1: Guirlanda de Brownie</span><span><br></span></li>
+        <li><span>🗒️ Bônus 2: Precificação na prática</span><span><br></span></li>
+        <li><span>💬 Suporte individual no WhatsApp</span><span>incluso</span></li>
+        <li><span>📱 Acesso pelo celular, tablet ou computador</span><span>incluso</span></li>
+        <li><span>🛡️ Garantia incondicional de 7 dias</span><span>incluso</span></li>
+        
+      </ul>
+      <div class="price">
+        <!-- TROCAR PREÇOS AQUI -->
+        
+        <div class="from">De <s>R$ 97,90</s></div>
+        <div class="label">Somente no especial de Natal, por apenas</div>
+        <div style="font-family:'Playfair Display',Georgia,serif;font-weight:800;font-size:clamp(1.6rem,6vw,2.1rem);color:#4A2C21;line-height:1;margin-top:10px">6x de</div>
+        <div class="now metal-text"><small>R$</small>8,99</div>
+        <div style="display:inline-block;margin:6px 0 22px;padding:8px 18px;border-radius:999px;background:#e5f0ea;color:#1F4D3A;font-weight:600;font-size:1rem">ou R$ 47,90 à vista</div>
+        <!-- TROCAR: link do checkout -->
+        <a class="btn" href="https://pay.kiwify.com.br/Agp5YSB">Quero garantir minha vaga</a>
+        <div class="secure">
+          <span class="pill"><svg><use href="#lock"></use></svg>Compra 100% segura</span>
+          <span class="pill">⚡ Pix</span>
+          <span class="pill">💳 Cartão</span>
+          <span class="pill">🧾 Boleto</span>
+        </div>
+        <p style="font-size:.78rem;color:#8a6c62;margin-top:12px">Acesso enviado por e-mail logo após a confirmação do pagamento.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="bg-cream2">
+  <div class="wrap guarantee">
+    <div class="g-seal reveal" role="img" aria-label="Selo de garantia de 7 dias">
+      <svg viewBox="0 0 200 200">
+        <g transform="translate(100 100)">
+          <path fill="url(#gGold)" d="M0-96l12 9 15-3 7 13 15 2 3 15 13 7-3 15 9 12-9 12 3 15-13 7-3 15-15 2-7 13-15-3-12 9-12-9-15 3-7-13-15-2-3-15-13-7 3-15-9-12 9-12-3-15 13-7 3-15 15-2 7-13 15 3z"></path>
+          <circle r="72" fill="url(#gRed)"></circle>
+          <circle r="64" fill="none" stroke="#F1D77A" stroke-width="1.5" stroke-dasharray="3 4"></circle>
+          <text y="-24" text-anchor="middle" fill="#F1D77A" font-family="Poppins" font-weight="600" font-size="12" letter-spacing="2">GARANTIA</text>
+          <text y="22" text-anchor="middle" fill="#fff" font-family="Playfair Display" font-weight="800" font-size="52">7</text>
+          <text y="42" text-anchor="middle" fill="#fff" font-family="Poppins" font-weight="600" font-size="12" letter-spacing="2">DIAS</text>
+        </g>
+      </svg>
+    </div>
+    <div>
+      <span class="eyebrow" style="text-align:left">Risco zero</span>
+      <h2 style="text-align:left">Garantia incondicional de <span class="metal-text">7 dias</span></h2>
+      <p style="color:#5a4038;margin-bottom:10px">Entre, assista às aulas e veja tudo com calma. Se por qualquer motivo você não gostar, é só pedir o reembolso dentro de 7 dias e você recebe <strong>100% do seu dinheiro de volta</strong>, sem perguntas.</p>
+      <p style="color:#5a4038">Ou seja: <strong>o risco é todo meu.</strong> Você só precisa decidir se quer um cardápio de Natal que vende.</p>
+    </div>
+  </div>
+</section>
+
+
+<section class="bg-cream">
+  <div class="wrap">
+    <span class="eyebrow">Ficou alguma dúvida?</span>
+    <h2>Perguntas frequentes</h2>
+    <p class="lead">&nbsp;</p>
+    <div class="faq">
+      <details><summary>Como vou receber o acesso?</summary><p>Por e-mail, logo após a confirmação do pagamento. Você recebe o login e a senha da área de alunas, onde ficam todas as videoaulas.</p></details>
+      <details><summary>As aulas são ao vivo ou gravadas?</summary><p>São gravadas. Você assiste quando quiser, no seu ritmo, e pode rever quantas vezes precisar.</p></details>
+      <details><summary>Por quanto tempo terei acesso?</summary><p>Você tem 1 ano de acesso para assistir e rever as aulas quantas vezes quiser, inclusive para os próximos Natais.</p></details>
+      <details><summary>Sou iniciante, vou conseguir?</summary><p>Sim! Tudo é mostrado em vídeo, passo a passo, das 7 bases cremosas à montagem final de cada sobremesa. E você ainda tem suporte individual no WhatsApp.</p></details>
+      <details><summary>Preciso de equipamentos profissionais?</summary><p>Não. Você consegue fazer tudo com utensílios comuns de cozinha, como panela de fundo grosso, espátula, assadeira, potes e bicos de confeitar. No Módulo 1 tem uma aula só com a indicação dos utensílios.</p></details>
+      <details><summary>Posso vender as sobremesas que aprender?</summary><p>Pode e deve! E ainda tem a aula bônus de precificação para você cobrar o preço certo.</p></details>
+      <details><summary>Consigo assistir pelo celular?</summary><p>Sim. Funciona no celular, tablet e computador.</p></details>
+      <details><summary>Quais as formas de pagamento?</summary><p>Pix, boleto ou cartão de crédito em até 6x de R$ 8,99. No Pix e no cartão o acesso é liberado na hora; no boleto, após a compensação.</p></details>
+      <details><summary>E se eu não gostar?</summary><p>Você tem 7 dias de garantia incondicional. Pediu o reembolso dentro desse prazo, recebe 100% do valor de volta.</p></details>
+    </div>
+  </div>
+</section>
+
+</div>
+<footer>
+  <div class="wrap">
+    <p><strong style="color:#fff">Especial Sobremesas Natalinas</strong> • Keylla • Família Brigadier</p>
+    <p>Contato: [CONTATO]</p>
+    <p>Este produto não garante a obtenção de resultados. Os resultados dependem da dedicação e da prática de cada aluna. As fotos são de sobremesas preparadas pela professora.</p>
+    <p>© 2026 Família Brigadier. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+
+
+
+</main>
+<script>
+/* Animações de entrada ao rolar */
+(function(){
+  var els=document.querySelectorAll('.reveal');
+  if (!('IntersectionObserver' in window) || matchMedia('(prefers-reduced-motion: reduce)').matches){ els.forEach(function(e){e.classList.add('in')}); return; }
+  var io=new IntersectionObserver(function(en){ en.forEach(function(x){ if(x.isIntersecting){ x.target.classList.add('in'); io.unobserve(x.target);} }); },{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+  els.forEach(function(e){io.observe(e)});
+})();
+/* Abas das sobremesas */
+document.querySelectorAll('.sbtab').forEach(function(b){ b.addEventListener('click',function(){
+  var t=b.getAttribute('data-tab');
+  document.querySelectorAll('.sbtab').forEach(function(x){ x.classList.toggle('on', x===b); x.setAttribute('aria-pressed', x===b ? 'true':'false'); });
+  document.querySelectorAll('.sbpanel').forEach(function(p){ p.hidden = p.getAttribute('data-panel')!==t; });
+}); });
+/* Perguntas frequentes: abre uma por vez */
+document.querySelectorAll('.faq details').forEach(function(d){ d.addEventListener('toggle',function(){ if(d.open) document.querySelectorAll('.faq details').forEach(function(o){ if(o!==d) o.open=false; }); }); });
+</script>
+</body>
+</html>
